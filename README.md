@@ -8,6 +8,7 @@ commercial or custom anti-cheat mechanisms during analysis.
 
 ---
 
+<img width="1919" height="1039" alt="Screenshot 2026-01-02 023528" src="https://github.com/user-attachments/assets/5ea87c90-dfee-4d17-8985-39e71cda0541" />
 
 ## ✨ Features
 
