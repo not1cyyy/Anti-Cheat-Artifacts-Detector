@@ -1,0 +1,17 @@
+{
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin": {
+        "name": "Anti-Cheat Artifacts Detector",
+        "version": "1.0.0",
+        "entryPoint": "Release/anticheat_detector64.dll",
+        "urls": {
+            "repository": "https://github.com/not1cyyy/Anti-Cheat-Artifacts-Detector"
+        },
+        "authors": [
+            {
+                "name": "not1cyyy",
+                "email": "not1cyyy@proton.me"
+            }
+        ]
+    }
+}
