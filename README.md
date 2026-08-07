@@ -4,28 +4,28 @@ An **IDA Pro plugin** that statically detects **Anti-Cheat Artifacts** in Window
 meant to help reverse engineers and security researchers quickly identify the presence of
 commercial or custom anti-cheat mechanisms during analysis.
 
-> ⚠️ This plugin is for **reverse engineering and academic research only**.
+>  This plugin is for **reverse engineering and academic research only**.
 
 ---
 
 <img width="1919" height="1039" alt="Screenshot 2026-01-02 023528" src="https://github.com/user-attachments/assets/5ea87c90-dfee-4d17-8985-39e71cda0541" />
 
-## ✨ Features
+## Features
 
-- 🔍 **Static detection of Anti-Cheat Artifacts**
+-  **Static detection of Anti-Cheat Artifacts**
   - Known Anti-Cheat strings (EAC, BattlEye, Vanguard, FACEIT, XIGNCODE, etc.)
   - Suspicious Windows APIs commonly used by Anti-Cheats
   - Anti-debugging and Anti-VM related imports
-- 🧠 **Function-level scanning**
-- 📊 **Interactive results view**
+-  **Function-level scanning**
+-  **Interactive results view**
   - Clickable results that jump directly to the artifact in IDA
-- 🧩 **Extensible rule-based design**
+-  **Extensible rule-based design**
   - Easy to add new signatures and heuristics
-- ⚡ Built on the **IDA SDK (C++)**
+-  Built on the **IDA SDK (C++)**
 
 ---
 
-## 🛠️ Detection Logic (Overview)
+## Detection Logic (Overview)
 
 The plugin analyzes the binary for common Anti-Cheat techniques, including:
 
@@ -55,12 +55,12 @@ Examples:
 
 ---
 
-## 📦 Installation
+## Installation
 
 You can download the pre-built plugin from the [releases](https://github.com/not1cyyy/Anti-Cheat-Artifacts-Detector/releases) page. 
 Just place the plugin in the IDA Pro plugins directory.
 
-## 📦 Building from Source
+## Building from Source
 
 ### Requirements
 - IDA Pro 9.0
@@ -81,7 +81,7 @@ Just place the plugin in the IDA Pro plugins directory.
    cmake ..
    cmake --build .
    ```
-## 🚀 Usage
+## Usage
 
 1. Open IDA Pro and load the binary you want to analyze.
 2. Go to the "Plugins" menu and select "Anti-Cheat Artifacts Detector".
@@ -89,15 +89,15 @@ Just place the plugin in the IDA Pro plugins directory.
 4. The plugin will scan the binary and display the results in a chooser window.
 5. You can then double click on the results to jump to the artifact in IDA.
 
-## 📄 License
+## License
 
 This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
-## 📝 Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## ⭐ Acknowledgements
+## Acknowledgements
 
 - [IDA SDK](https://github.com/HexRaysSA/ida-sdk)
 - [IDA Pro](https://www.hex-rays.com/products/ida/)
